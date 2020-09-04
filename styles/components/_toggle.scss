@@ -1,0 +1,64 @@
+$toggle-switch-size: 0.5rem;
+$toggle-ease-in-exponential: cubic-bezier(0.95, 0.05, 0.8, 0.04);
+$toggle-ease-in-sine: cubic-bezier(0.5, 0, 1, 0.5);
+$toggle-ease-out-sine: cubic-bezier(0, 0.5, 0.5, 1);
+
+.toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  // ----------
+  //  Elements
+  // ----------
+
+  &-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    color: currentColor;
+    cursor: pointer;
+
+    &::before {
+      order: 1;
+      box-sizing: border-box;
+      width: #{2.5 * $toggle-switch-size};
+      height: #{1.5 * $toggle-switch-size};
+      margin-left: 0.75rem;
+      background: var(--bg-accent);
+      border-radius: 2rem;
+      transition: background-color 150ms linear;
+      content: "";
+      pointer-events: none;
+    }
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      right: 0.25rem;
+      box-sizing: border-box;
+      width: $toggle-switch-size;
+      height: $toggle-switch-size;
+      background-color: var(--fg);
+      border-radius: 50%;
+      transform: translate(-100%, -50%);
+      transition: background-color 150ms linear,
+        transform 100ms $toggle-ease-in-exponential;
+      content: "";
+    }
+  }
+
+  &-input {
+    position: absolute;
+    right: 100vw;
+    opacity: 0;
+
+    &:checked ~ .toggle-label {
+      &::after {
+        transform: translate(0, -50%);
+      }
+    }
+  }
+}

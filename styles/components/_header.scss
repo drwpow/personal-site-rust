@@ -1,0 +1,49 @@
+.header {
+  --logo-size: 3rem;
+
+  display: grid;
+  grid-template-areas: "logo title" "logo nav";
+  grid-column-gap: 1rem;
+  grid-template-columns: var(--logo-size) auto;
+
+  &-img {
+    grid-area: logo;
+    width: var(--logo-size);
+    height: var(--logo-size);
+
+    &-bg {
+      fill: var(--fg);
+    }
+
+    &-fg {
+      fill: var(--bg);
+    }
+  }
+
+  &-linklist {
+    display: flex;
+    margin: 0;
+    list-style: none;
+  }
+
+  &-link {
+    color: var(--green);
+    text-decoration: none;
+  }
+
+  &-title {
+    grid-area: title;
+    margin: 0;
+    font-size: var(--f-d2);
+    font-family: var(--body);
+    font-weight: 300;
+  }
+
+  &-nav {
+    grid-area: nav;
+  }
+
+  &-navitem {
+    margin: 0 1rem 0 0;
+  }
+}

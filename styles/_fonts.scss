@@ -1,0 +1,94 @@
+@font-face {
+  font-weight: 300;
+  font-family: "Cardinal Grotesque";
+  font-style: normal;
+  src: url("/assets/fonts/CardinalGrotesqueWide-Light.woff2") format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-Light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "Cardinal Grotesque";
+  font-style: italic;
+  src: url("/assets/fonts/CardinalGrotesqueWide-LightItalic.woff2")
+      format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-LightItalic.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Cardinal Grotesque";
+  font-style: normal;
+  src: url("/assets/fonts/CardinalGrotesqueWide-Regular.woff2") format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Cardinal Grotesque";
+  font-style: italic;
+  src: url("/assets/fonts/CardinalGrotesqueWide-RegularItalic.woff2")
+      format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-RegularItalic.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Cardinal Grotesque";
+  font-style: normal;
+  src: url("/assets/fonts/CardinalGrotesqueWide-Medium.woff2") format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-Medium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Cardinal Grotesque";
+  font-style: italic;
+  src: url("/assets/fonts/CardinalGrotesqueWide-MediumItalic.woff2")
+      format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-MediumItalic.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Cardinal Grotesque";
+  font-style: normal;
+  src: url("/assets/fonts/CardinalGrotesqueWide-SemiBold.woff2") format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-SemiBold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Cardinal Grotesque";
+  font-style: italic;
+  src: url("/assets/fonts/CardinalGrotesqueWide-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("/assets/fonts/CardinalGrotesqueWide-SemiBoldItalic.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Manrope";
+  font-style: normal;
+  src: url("/assets/fonts/Manrope-SemiBold.woff2") format("woff2"),
+    url("/assets/fonts/Manrope-SemiBold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Manrope";
+  font-style: normal;
+  src: url("/assets/fonts/Manrope-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Manrope-Bold.woff") format("woff");
+  font-display: swap;
+}

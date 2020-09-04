@@ -1,0 +1,23 @@
+:root {
+  --bg: #fcfcfc;
+  --bg-accent: #f0f0f0;
+  --fg: #1f1f1f;
+  --green: #0d3;
+  --fuschia: #f0f;
+  --border: #e0e0e0;
+}
+
+.theme--dark {
+  --bg: #1f1f1f;
+  --bg-accent: #303030;
+  --fg: #fcfcfc;
+  --green: #0f0;
+  --fuschia: #f0f;
+  --border: #444;
+}
+
+.theme-transition,
+.theme-transition * {
+  transition: background-color 500ms linear, color 500ms linear,
+    fill 500ms linear;
+}

@@ -1,0 +1,16 @@
+.footer {
+  padding: 6rem 0;
+  font-size: var(--d1);
+
+  &-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  &-theme {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+  }
+}
